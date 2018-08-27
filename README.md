@@ -2,6 +2,17 @@
 
 Demo to create simple website, calling python functions and divide tasks.
 
+* Backend:
+    * api.py : your python functions
+    * ws.py :  routing the webservice requests with pycnic library
+    * run.sh : run webservice with gunicorn library
+* Frontend:
+    * pyWSdemo.js :  JavaScript part to call webservices (GET/POST)
+    * pyWSdemo.html: Html part as GUI
+* TestingL
+    * test_api.py :  test function in the api.py
+    * test_ws.sh  :  test ws.py, using curl from shell
+
 # Backend
 
 ## Python Dependencies
